@@ -1334,11 +1334,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 8700 4000 8700
 Text Label 2250 9900 2    50   ~ 0
-SO1F
+SO1
 Text Label 2250 10000 2    50   ~ 0
-SO2F
+SO2
 Text Label 2250 10100 2    50   ~ 0
-SO3F
+SO3
 Wire Wire Line
 	1950 9900 2250 9900
 Wire Wire Line
