@@ -1870,11 +1870,11 @@ Wire Wire Line
 	6450 10300 6650 10300
 Wire Wire Line
 	6450 10400 6650 10400
-Text Label 6650 10200 2    50   ~ 0
+Text Label 6650 10400 2    50   ~ 0
 U
 Text Label 6650 10300 2    50   ~ 0
 V
-Text Label 6650 10400 2    50   ~ 0
+Text Label 6650 10200 2    50   ~ 0
 W
 Text Notes 6050 10050 0    50   ~ 10
 Motor Connector
