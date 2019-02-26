@@ -57,8 +57,6 @@ F 3 "" H 14650 3100 50  0001 C CNN
 	1    14650 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14650 1400 14650 1350
 $Comp
 L power:+BATT #PWR0104
 U 1 1 5C4BA489
@@ -89,26 +87,6 @@ Wire Wire Line
 Wire Wire Line
 	14200 2950 14200 3000
 Connection ~ 14200 3000
-$Comp
-L Device:C C23
-U 1 1 5C50A6B4
-P 15400 2150
-F 0 "C23" H 15515 2196 50  0000 L CNN
-F 1 "220nF" H 15515 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15438 2000 50  0001 C CNN
-F 3 "~" H 15400 2150 50  0001 C CNN
-	1    15400 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 1350 15400 1350
-Wire Wire Line
-	15400 1350 15400 2000
-Connection ~ 14650 1350
-Wire Wire Line
-	14650 1350 14650 1300
-Wire Wire Line
-	15400 2300 15400 3000
 $Comp
 L Connector_Generic:Conn_02x19_Odd_Even J2
 U 1 1 5C589A8A
@@ -608,8 +586,6 @@ SLA
 Wire Wire Line
 	14150 2500 14650 2500
 Wire Wire Line
-	14650 3000 15400 3000
-Wire Wire Line
 	14200 3000 14650 3000
 $Comp
 L Device:R R17
@@ -837,8 +813,6 @@ F 3 "" H 14650 5400 50  0001 C CNN
 	1    14650 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14650 3700 14650 3650
 $Comp
 L power:+BATT #PWR0119
 U 1 1 5C4EB5E9
@@ -869,26 +843,6 @@ Wire Wire Line
 Wire Wire Line
 	14200 5250 14200 5300
 Connection ~ 14200 5300
-$Comp
-L Device:C C24
-U 1 1 5C4EB5FB
-P 15400 4450
-F 0 "C24" H 15515 4496 50  0000 L CNN
-F 1 "220nF" H 15515 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15438 4300 50  0001 C CNN
-F 3 "~" H 15400 4450 50  0001 C CNN
-	1    15400 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 3650 15400 3650
-Wire Wire Line
-	15400 3650 15400 4300
-Connection ~ 14650 3650
-Wire Wire Line
-	14650 3650 14650 3600
-Wire Wire Line
-	15400 4600 15400 5300
 Text Label 14150 3900 0    50   ~ 0
 GHB
 Wire Wire Line
@@ -907,8 +861,6 @@ Text Label 14150 4800 0    50   ~ 0
 SLB
 Wire Wire Line
 	14150 4800 14650 4800
-Wire Wire Line
-	14650 5300 15400 5300
 Wire Wire Line
 	14200 5300 14650 5300
 $Comp
@@ -983,8 +935,6 @@ F 3 "" H 14650 7750 50  0001 C CNN
 	1    14650 7750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14650 6050 14650 6000
 $Comp
 L power:+BATT #PWR0121
 U 1 1 5C4EFD58
@@ -1015,26 +965,6 @@ Wire Wire Line
 Wire Wire Line
 	14200 7600 14200 7650
 Connection ~ 14200 7650
-$Comp
-L Device:C C25
-U 1 1 5C4EFD6A
-P 15400 6800
-F 0 "C25" H 15515 6846 50  0000 L CNN
-F 1 "220nF" H 15515 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15438 6650 50  0001 C CNN
-F 3 "~" H 15400 6800 50  0001 C CNN
-	1    15400 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 6000 15400 6000
-Wire Wire Line
-	15400 6000 15400 6650
-Connection ~ 14650 6000
-Wire Wire Line
-	14650 6000 14650 5950
-Wire Wire Line
-	15400 6950 15400 7650
 Text Label 14150 6250 0    50   ~ 0
 GHC
 Wire Wire Line
@@ -1053,8 +983,6 @@ Text Label 14150 7150 0    50   ~ 0
 SLC
 Wire Wire Line
 	14150 7150 14650 7150
-Wire Wire Line
-	14650 7650 15400 7650
 Wire Wire Line
 	14200 7650 14650 7650
 $Comp
@@ -2112,4 +2040,10 @@ F 8 "DRV8305NPHPR" H 3200 4000 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	1650 4000 1350 4000
+Wire Wire Line
+	14650 1300 14650 1400
+Wire Wire Line
+	14650 3600 14650 3700
+Wire Wire Line
+	14650 5950 14650 6050
 $EndSCHEMATC
