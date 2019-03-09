@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bldc_driver_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1201,32 +1200,8 @@ Text Label 1150 10300 0    50   ~ 0
 SDO
 Text Label 2800 9800 0    50   ~ 0
 SCLK
-$Comp
-L Device:R R2
-U 1 1 5C515A8B
-P 1100 4950
-F 0 "R2" V 1200 4900 50  0000 L CNN
-F 1 "10k" V 1100 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1030 4950 50  0001 C CNN
-F 3 "~" H 1100 4950 50  0001 C CNN
-	1    1100 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1100 4800 1650 4800
-Wire Wire Line
-	1100 5100 1100 5150
-$Comp
-L power:GND #PWR0134
-U 1 1 5C52545E
-P 1100 5150
-F 0 "#PWR0134" H 1100 4900 50  0001 C CNN
-F 1 "GND" H 1105 4977 50  0000 C CNN
-F 2 "" H 1100 5150 50  0001 C CNN
-F 3 "" H 1100 5150 50  0001 C CNN
-	1    1100 5150
-	1    0    0    -1  
-$EndComp
+	1350 4800 1650 4800
 Text Notes 950  8350 0    50   ~ 10
 Nucleo F446 Connector
 Wire Notes Line
@@ -1873,7 +1848,6 @@ NoConn ~ 1450 9900
 NoConn ~ 1450 10000
 NoConn ~ 1450 10100
 NoConn ~ 1450 10200
-NoConn ~ 1450 10400
 NoConn ~ 1950 10400
 NoConn ~ 1950 9800
 NoConn ~ 1950 9300
@@ -2049,4 +2023,10 @@ Wire Wire Line
 	6400 9300 6750 9300
 Wire Wire Line
 	6400 9400 6750 9400
+Text Label 1350 4800 0    50   ~ 0
+~SCS
+Text Label 1150 10400 0    50   ~ 0
+~SCS
+Wire Wire Line
+	1450 10400 1150 10400
 $EndSCHEMATC
